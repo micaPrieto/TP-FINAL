@@ -10,7 +10,7 @@ export const routes: Routes = [
   },
   //Esto un objeto con un atributo que se llama path
   {
-    path:'olvidaste-contraseña.html', //Si ingreso en la ruta
+    path:'olvidaste-contrasenia', //Si ingreso en la ruta
     component: OlvidasteContraseniaComponent // renderiza al componente padre(de la carpeta input)
   },
   {

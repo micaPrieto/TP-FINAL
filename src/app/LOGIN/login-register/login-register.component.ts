@@ -30,9 +30,9 @@ export class LoginRegisterComponent implements OnInit {
     }
 
     if (forgotPasswordLink && container) {
-      forgotPasswordLink.addEventListener('click', (e) => {
-        e.preventDefault();
-        container.classList.add('show-forgot-password');
+      forgotPasswordLink.addEventListener('click', () => {
+        //container.classList.add('show-forgot-password');
+        // Sin e.preventDefault() para permitir la navegación
       });
     }
 
